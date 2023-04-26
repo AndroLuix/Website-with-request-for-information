@@ -1,0 +1,521 @@
+body {
+    margin: 0%;
+    font-family: Coustard;
+    font-size: 29px !important;
+}
+
+
+#div1 {
+    padding: 50px;
+    width: 100%;
+    flex-direction: r;
+    height: 800px;
+    padding-right: 200px;
+    word-spacing: 50px;
+
+
+}
+
+#div1 img {
+    width: 20%;
+    height: 20%;
+    float: left;
+
+}
+
+#div2 {
+
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    color: rgb(166, 216, 166);
+
+
+}
+
+nav {
+    background-image: url(img-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    /*height: 600px;
+   position: relative;*/
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+nav a:hover {
+    background-color: rgb(97, 94, 94);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    height: 20%;
+    width: fit-content;
+
+}
+
+.display {
+    height: 500px;
+}
+
+.centr {
+
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+
+}
+
+.card {
+
+    height: 10%;
+    width: 10%;
+    font-size: 50%;
+    text-align: center;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 18%;
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.card-img-top {
+
+
+    width: max-content;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card-text {
+    font-size: 27px;
+    height: 50px;
+    margin-left: -20px;
+}
+
+.card-body {
+    color: rgb(0, 0, 0);
+    
+    width: fit-content;
+
+}
+
+footer .card-body {
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+.card-text{
+    width: 180px;
+    
+    
+}
+.testo {
+    font-size: 20px;
+    height: 30px;
+    margin-top: 30px
+}
+
+#scrollspyHeading1 {
+    height: 100%;
+    text-align: center;
+
+    padding: 10%;
+}
+
+#scrollspyHeading1 .card {
+    margin-bottom: -20%;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.container-lg {
+    padding-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+.scroll footer {
+    text-align: center;
+    background-color: rgb(39, 28, 28);
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+#servizi1 {
+    padding-top: 2%;
+    height: 600px;
+    color: black;
+    background-color: rgb(172, 172, 172);
+}
+
+#servizi2 {
+    height: 800px;
+
+    padding-bottom: 20%;
+    color: black;
+    background-color: rgb(172, 172, 172);
+    margin-bottom: 20px;
+    font-size: 30px;
+
+
+}
+
+.container-lg {
+    padding: 10%;
+}
+
+footer {
+    padding-top: 10%;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+footer .card-img-top {
+
+    width: max-content;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .card {
+    font-size: 50%;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+}
+
+footer .card-body {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+footer .card-text {
+    font-size: 100%;
+    margin-left: 25%;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        margin: 0%;
+        font-size: 19px !important;
+    }
+
+    body {
+        margin: 0%;
+        font-family: Coustard;
+        font-size: 19px !important;
+    }
+
+    #div1 img {
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    nav {
+        background-image: url(img-header.jpg) fixed center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        height: 100%;
+        width: 100%;
+        text-align: right;
+        /*height: 600px;
+       position: relative;*/
+    }
+
+    #div1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #div1 a {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+
+
+    }
+
+    #div2 {
+        text-align: center;
+
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0;
+
+        color: rgb(145, 173, 145);
+        font-size: 25px;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-size: 20px;
+        display: flow-root;
+        border-radius: 10px;
+        background-color: black;
+        padding: 10px;
+        margin-left: 4em;
+        font-weight: 200;
+        text-align: center;
+
+        /*flex-direction: row ;
+        flex-direction: row-reverse;
+        flex-direction:column;*/
+    }
+
+    nav a:hover {
+        background-color: rgb(226, 226, 226);
+        height: 100px;
+        width: fit-content;
+
+    }
+
+
+
+    #div1 {
+        padding: 50px;
+        width: 100%;
+        height: 800px;
+        padding-right: 200px;
+        word-spacing: 50px;
+
+
+    }
+
+    #div2 {
+
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        margin-left: 20%;
+        color: rgb(166, 216, 166);
+    }
+
+    nav {
+        background-image: url(img-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60%;
+        width: 100%;
+        text-align: right;
+        /*height: 600px;
+       position: relative;*/
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgb(221, 221, 221);
+        margin-top: 30px;
+        font-weight: 100;
+    }
+
+    nav a:hover {
+        background-color: rgb(97, 94, 94);
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .display {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #servizi1 {
+        height: 1300px;
+    }
+
+    #servizi2 {
+        
+        height: 1500px;
+        margin-bottom: -300px;
+        
+    }
+
+    .display .card {
+        margin-left: 30%;
+    }
+
+    #servizi2 .card {
+        margin-left: 30%;
+        margin-bottom: 100%;
+        
+    }
+
+    #servizi1 .card {
+        margin-left: 30%;
+    }
+    #servizi1 .card-text{
+        width: 180px;
+        margin-left: -50px;
+
+    }
+    #servizi2 .card-text{
+        width: 180px;
+        margin-left: -40px;
+    }
+    #servizi2 .testo{
+        font-size: small;
+    }
+    #servizi2 .card{
+       margin-top: 20%;
+        margin-bottom: 30%;
+    }
+   
+    .card {
+        height: 10%;
+        width: 20%;
+        font-size: 100%;
+        margin-left: 0%;
+        text-align: center;
+        border: none;
+        margin-bottom: 200px;
+        background-color: rgba(240, 248, 255, 0);
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .card-body {
+        width: fit-content;
+        width: 200%;
+        font-size: 100%;
+        
+
+    }
+
+    .card-img-top {
+
+        width: max-content;
+        width: 170%;
+
+    }
+
+    .testo {
+        font-size: 80%;
+        margin-left: -20px;
+
+    }
+
+    #scrollspyHeading1 {
+        height: 100%;
+        text-align: center;
+        margin-top: 50%;
+        padding: 10%;
+    }
+
+    .container-fluid {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-sm {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+
+
+    .scroll footer {
+        text-align: center;
+        background-color: black;
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+
+    footer .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 30%;
+
+    }
+
+    footer .card-text {
+        font-size: 100%;
+        width: 120px;
+        
+        font-size: 100%;
+        margin-left: 0%;
+        
+        margin-right: auto;
+        width: 200px;
+
+
+    }
+
+    footer .card-img-top {
+        margin-left: 90%;
+
+    }
+
+    .container-lg {
+        margin-top: -50px;
+    }
+
+    .img-footer {
+        margin-bottom: -150px;
+        padding: 10%;
+
+    }
+
+    .img-footer .card {
+        margin-left: auto;
+        margin-right: auto;
+        margin: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+}
